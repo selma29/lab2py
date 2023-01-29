@@ -42,3 +42,4 @@ $ git push -u origin main
 ![Gambar 9](gambar/9.png)
 11. Selesai
 Anda telah menggunakan git dan git hub dalam pengerjaan tugas. Sekian.
+![Gambar 10](gambar 10.png)
