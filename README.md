@@ -3,8 +3,11 @@
 
 ### Tugas pertemuan ke 4 Bahasa Pemrograman
 Nama : Selma Ohoira
+
 NIM : 312210727
+
 Kelas : TI.22.C9
+
 Prodi : Teknik Informatika
 
 # Cara Menggunakan Git dan Github :
