@@ -72,6 +72,11 @@ Dan jika sudah berhasil regist, tampilannya akan seperti dibawah ini :
   8. Langkah selanjutnya kembali membuka App GitBash dan masukan perintah
      syntax : 'git add .'
 ![Gambar](gambar/15.png)
-  9. Selanjutnya melakukan commit. Yang dimana fungsi commit adalah untuk menyimpan perubahan
+  9. Selanjutnya melakukan commit yang dimana fungsi commit adalah untuk menyimpan perubahan
      yang dilakukan, tetapi tidak terjadi perubahan pada remote repository.
      Caranya masukan syntax : 'git commit "keterangan perubahan apa yang dilakukan"'.
+![Gambar](gambar/16.png)
+ 10. Setelah git commit selesai, melakukan Git Push yang dimana berfungsi untuk mengirimkan
+     perubahan file yang telah dicommit ke remote repository. Caranya masukan
+     syntax : 'git push'
+     
