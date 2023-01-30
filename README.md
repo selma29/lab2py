@@ -35,7 +35,7 @@ Buka github pada situs resminya github.com. Setelah itu pilih menu SignUp
 jika memang belum mempunyai akun. Jika sudah punya akun silahkan langsung SignIn.
 ![Gambar 4](gambar/4.png)
 Dan jika sudah berhasil regist, tampilannya akan seperti dibawah ini :
-1[Gambar 5](gambar/5.png)
+![Gambar 5](gambar/5.png)
 
 # Langkah membuat REPOSITORY pada GITHUB
 1. Buka profile kalian, kemudian pilih dibagian start a project,
@@ -45,7 +45,7 @@ Dan jika sudah berhasil regist, tampilannya akan seperti dibawah ini :
 3. Ketik judul yang diinginkan dan disana bisa diatur apakah repository
    tersebut besifat privacy ataupun public
 4. Jika tampilannya seperti dibawah ini, artinya repository sudah berhasil
-   dan dapat membukanya pada tuisan README
+   dan dapat membukanya pada tulisan README
 ![Gambar](gambar/11.png)
    Jika ingin menulis sesuatu atau mengedit sebuah teks yang sudah ada sebelumnya
    pada lembar kerja, kalian bisa menekan gambar pensil seperti digambar diatas.
@@ -60,8 +60,9 @@ Dan jika sudah berhasil regist, tampilannya akan seperti dibawah ini :
 ![Gambar](gambar/8.png)
 4. Setelahnya pop Up Command Promp (CMD) akan terbuka. Pada proses ini kita akan melakukan
    download file repository yang tadi dibuat, dengan menggunakan syntax : git clone "link URL Github"
+
 ![Gambar](gambar/13.png)
-5. Setelah cloning selesai, masukan perintah syntax : cd 'n(nama folder yang tadi dicloning)/'
+5. Setelah cloning selesai, masukan perintah syntax : cd '(nama folder yang tadi dicloning)/'
      untuk masuk kedalam folder yang telah dicloning.
 ![Gambar](gambar/14.png)
 6. Selanjutnya kita bisa mengedit file README.md yang ada pada File Explorer dengan menggunakan
