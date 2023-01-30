@@ -109,3 +109,15 @@ Dan jika sudah berhasil regist, tampilannya akan seperti dibawah ini :
 JIKA SEMUA PROSES DIATAS SUDAH DILAKUKAN SEMUA TANPA ADA YANG TERLEWAT,
 KALIAN BISA LANGSUNG MELIHAT PERUBAHAN REPOSITORY DENGAN MEMBUKANYA
 PADA LAMAN GITHUB. SEKIAN & SELAMAT MENCOBA :)
+
+
+### MENJALANKAN PYTHON CONSOLE
+## Menjumlahkan 2 buah bilangan
+## menggunakan variabel dan b
+
+![Gambar](gambar/18.png)
+
+### MENJALANKAN IDLE
+## Membuat file baru dengan nama latihan3.py
+
+![Gambar](gambar/19.png)
