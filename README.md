@@ -112,8 +112,7 @@ PADA LAMAN GITHUB. SEKIAN & SELAMAT MENCOBA :)
 
 
 ### MENJALANKAN PYTHON CONSOLE
-## Menjumlahkan 2 buah bilangan
-## menggunakan variabel dan b
+## Menjumlahkan 2 buah bilangan menggunakan variabel dan b
 
 ![Gambar](gambar/18.png)
 
