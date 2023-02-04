@@ -22,13 +22,11 @@ Mata Kuliah : Bahasa Pemograman
 
 ![Gambar](gambar/2.png)
 
-4. Menjalankan python console
-
-# Latihan 1
+# Latihan (Menjalankan python console)
 1. Masukan code: print ("Hello")
 2. Masukan code: print ("Saya sedang belajar python")
 untuk menampilkan output kata/ atau kalimat pada python
-5. Selanjutnya masukan code berikut:
+3. Selanjutnya masukan code berikut:
 a = 8
 b = 6
 print ("variable a=",a)
@@ -38,7 +36,7 @@ untuk menjumlahkan 2 buah bilangan menggunakan variabel a dan b
 
 ![Gambar](gambar/18.png)
 
-## MENJALANKAN IDLE (Latihan3)
+# MENJALANKAN IDLE (Latihan3)
 
 ![Gambar](gambar/19.png)
 
@@ -66,11 +64,8 @@ Tunggu hingga selesai dan program siap digunakan.
 
 ![Gambar](gambar/24.png)
 
-5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1.py"
-
-![Gambar](gambar/25.png)
-
-6. Masukan source code berikut:
+5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1"
+Masukan source code berikut:
 
 # Penggunaan end
 print('A', end='')
@@ -212,9 +207,9 @@ Hasil Run
 
 # TUGAS
 ## MENGHITUNG LUAS DAN KELILING LINGKARAN
-1. Buat new stratch "Praktikum3.py"
+1. Buat new stratch "Praktikum3"
 2. Masukan source code berikut :
-print('menghitung luas dan keliling lingkarang')
+print('menghitung luas dan keliling lingkaran')
 print('________________________________________')
 
 r=float(input('masukkan nilai jari - jari :'))
