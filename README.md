@@ -14,17 +14,21 @@ Mata Kuliah : Bahasa Pemograman
 
 ![Gambar](gambar/1.png)
 
-2. Pilih download python versi terbaru
-3. Instalisasi
+2. Buka lalu centang bagian add python to PATH lalu klik install now
+
+![Gambar](gambar/3.png)
+
+3. Instalasi selesai dan close
 
 ![Gambar](gambar/2.png)
 
 4. Menjalankan python console
-bisa menggunakan command prompt atau bisa langsung menggunakan python.
-3. Masukan syntax: print ("Hello")
-4. Masukan syntax : print ("Saya sedang belajar python")
+
+# Latihan 1
+1. Masukan code: print ("Hello")
+2. Masukan code: print ("Saya sedang belajar python")
 untuk menampilkan output kata/ atau kalimat pada python
-5. Selanjutnya masukan source code berikut:
+5. Selanjutnya masukan code berikut:
 a = 8
 b = 6
 print ("variable a=",a)
@@ -41,7 +45,6 @@ untuk menjumlahkan 2 buah bilangan menggunakan variabel a dan b
 SELESAI!!
 
 
-# TUGAS PERTEMUAN 6 BAHASA PEMOGRAMAN
 # PRAKTIKUM 3
 Langkah-langkahnya yaitu :
 1. Install Pycharm di https://www.jetbrains.com/pycharm/download/#section=windows
