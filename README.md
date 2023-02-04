@@ -11,10 +11,14 @@ Mata Kuliah : Bahasa Pemograman
 
 # CARA INSTALASI PYTHON
 1. Bagi pengguna windows, buka situs resmi python (python.org)
+
 ![Gambar](gambar/1.png)
+
 2. Pilih download python versi terbaru
 3. Instalisasi
+
 ![Gambar](gambar/2.png)
+
 4. Menjalankan python console
 bisa menggunakan command prompt atau bisa langsung menggunakan python.
 3. Masukan syntax: print ("Hello")
