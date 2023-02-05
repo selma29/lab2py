@@ -27,11 +27,11 @@ Mata Kuliah : Bahasa Pemograman
 2. Masukan code: print ("Saya sedang belajar python")
 untuk menampilkan output kata/ atau kalimat pada python
 3. Selanjutnya masukan code berikut:
-    a = 8
-    b = 6
-    print ("variable a=",a)
-    print ("variable b=",b)
-    print ("hasil penjumlahan a+b=",a+b)
+        a = 8
+        b = 6
+        print ("variable a=",a)
+        print ("variable b=",b)
+        print ("hasil penjumlahan a+b=",a+b)
 untuk menjumlahkan 2 buah bilangan menggunakan variabel a dan b
 
 ![Gambar](gambar/18.png)
@@ -209,18 +209,18 @@ Hasil output latihan3
 1. Buat new stratch "Praktikum3"
 2. Masukan source code berikut :
 
-    print('menghitung luas dan keliling lingkaran')
-    print('________________________________________')
+        print('menghitung luas dan keliling lingkaran')
+        print('________________________________________')
 
-    r=float(input('masukkan nilai jari - jari :'))
+        r=float(input('masukkan nilai jari - jari :'))
 
-    phi=3.14
-    diameter=2*r
+        phi=3.14
+        diameter=2*r
 
-    luas=phi*r*r
-    keliling=phi*2*r
-    print('\nluasnya =', str("%.2f" % luas))
-    print('kelilingnya =', str("%.2f" % keliling))
+        luas=phi*r*r
+        keliling=phi*2*r
+        print('\nluasnya =', str("%.2f" % luas))
+        print('kelilingnya =', str("%.2f" % keliling))
 
 ![Gambar](gambar/35.png)
 
@@ -243,25 +243,25 @@ SELESAI!!
 
 Tampilkan N bilangan acak kurang dari 0,5.
 
-    Import Random.
+Import Random.
 
-import random;
+    import random;
 
-    Masukan nilai N.
+Masukan nilai N.
 
-N = int(input('Masukkan nilai N: '));
+    N = int(input('Masukkan nilai N: '));
 
-    Looping nilai N menggunakan For.
+Looping nilai N menggunakan For.
 
-for i in range(N)
+    for i in range(N)
 
-    Random dengan random.uniform dengan range 0.0 - 0.5.
+Random dengan random.uniform dengan range 0.0 - 0.5.
 
-random2 = random.uniform(0.0, 0.5);
+    random2 = random.uniform(0.0, 0.5);
 
-    Print hasil random.
+Print hasil random.
 
-print(random2);
+    print(random2);
 
 # Hasil output latihan1.py
 
@@ -276,43 +276,43 @@ print(random2);
 # Latihan2.py
 Program untuk menampilkan bilangan terbesar dari N buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
 
-    Buat variabel Array.
+Buat variabel Array.
 
-number = [];
+    number = [];
 
-    Looping menggunakan While dengan kondisi True.
+Looping menggunakan While dengan kondisi True.
 
-while True
+    while True
 
-    Input nomor untuk dimasukan ke dalam Array.
+Input nomor untuk dimasukan ke dalam Array.
 
-numberInput = int(input('Masukkan Bilangan: '));
-number.append(numberInput);
+    numberInput = int(input('Masukkan Bilangan: '));
+    number.append(numberInput);
 
-    Menggunakan logif If saat input == 0.
+Menggunakan logif If saat input == 0.
 
-if numberInput == 0:
+    if numberInput == 0:
 
-    Membuat Perulangan dengan For untuk menentukan angka terbesar dalam Array.
+Membuat Perulangan dengan For untuk menentukan angka terbesar dalam Array.
 
     max2 = number[0];
     for b in range(0, len(number)):        
         if(number[b] > max2):    
             max2 = number[b];    
 
-    Menampilkan Angka Terbesar.
+Menampilkan Angka Terbesar.
 
-print('Bilangan Terbesar adalah', max2);
+    print('Bilangan Terbesar adalah', max2);
 
-    Menghentikan While dengan Breaks saat input == 0.
+Menghentikan While dengan Breaks saat input == 0.
 
-if numberInput == 0:
-        max2 = number[0];
-        for b in range(0, len(number)):        
-            if(number[b] > max2):    
-                max2 = number[b];    
-        print('Bilangan Terbesar adalah', max2);
-        break;
+    if numberInput == 0:
+            max2 = number[0];
+            for b in range(0, len(number)):        
+                if(number[b] > max2):    
+                    max2 = number[b];    
+            print('Bilangan Terbesar adalah', max2);
+            break;
 
 # Hasil output latihan2.py
 
@@ -325,38 +325,38 @@ if numberInput == 0:
 # Program1.py
 Program sederhana dengan perulangan. Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
 
-    Buat variabel Modal, dan laba.
+Buat variabel Modal, dan laba.
 
-modal = 100000000;
-laba = 0;
+    modal = 100000000;
+    laba = 0;
 
-    Looping menggunakan For Range dengan kondisi 9x loops.
+Looping menggunakan For Range dengan kondisi 9x loops.
 
-for i in range (9):
+    for i in range (9):
 
-    Menggunakan Pengkondisian ketika perulangan.
+Menggunakan Pengkondisian ketika perulangan.
 
-if i == 1 or i == 2:
-...
-elif i > 2 and i < 5:
-...
-elif i > 4 and i < 8:
-...
-elif i == 8:
-...
+    if i == 1 or i == 2:
+    ...
+    elif i > 2 and i < 5:
+    ...
+    elif i > 4 and i < 8:
+    ...
+    elif i == 8:
+    ...
 
-    Mencetak besaran laba tiap loop.
+Mencetak besaran laba tiap loop.
 
-print("laba bulan ke-",i, "sebesar: ", 0);
+    print("laba bulan ke-",i, "sebesar: ", 0);
 
-    Membuat perhitungan laba dan menyimpannya pada variabel laba.
+Membuat perhitungan laba dan menyimpannya pada variabel laba.
 
-temp = modal * 1 / 100;
-laba += temp;  
+    temp = modal * 1 / 100;
+    laba += temp;  
 
-    Menampilkan Total Hasil Laba.
+Menampilkan Total Hasil Laba.
 
-print('Total Laba adalah', laba);
+    print('Total Laba adalah', laba);
 
 ![Gambar](gambar/9.png)
 
