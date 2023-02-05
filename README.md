@@ -1,5 +1,5 @@
 # lab2py
-## TUGAS PERTEMUAN KE 5
+## TUGAS PERTEMUAN KE 5 & 6
 
 Nama : Selma Ohoira
 
@@ -122,7 +122,7 @@ Hasil output latihan1
 
 
 # Latihan 2
-1. Buat new strach file "Latihan2.py"
+1. Buat new strach file "Latihan2"
 2. Masukan source code berikut :
 
     a=input("masukkan nilai a:")
@@ -145,7 +145,7 @@ Hasil output latihan2
 
 
 # Latihan 3
-1. Buat new stracth "Latihan3.py"
+1. Buat new stracth "Latihan3"
 2. Masukan source code berikut :
 
     string = ""
