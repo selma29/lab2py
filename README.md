@@ -32,6 +32,7 @@ Mata Kuliah : Bahasa Pemograman
         print ("Saya sedang belajar python")
 
 untuk menampilkan output kata/ atau kalimat pada python
+
 3. Selanjutnya masukan syntax berikut:
 
         a = 8
@@ -44,7 +45,7 @@ untuk menjumlahkan 2 buah bilangan menggunakan variabel a dan b
 
 ![Gambar](gambar/18.png)
 
-# MENJALANKAN IDLE (Latihan3)
+## MENJALANKAN IDLE (Latihan3)
 
 ![Gambar](gambar/19.png)
 
@@ -74,7 +75,7 @@ Tunggu hingga selesai dan program siap digunakan.
 
 5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1"
 
-# Penggunaan end
+## Penggunaan end
 Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di layar. Jadi secara bawaan, setiap kali kita memanggil fungsi print() untuk mencetak sesuatu, python akan mencetak karakter ganti baris () di setiap output.
 Masukan syntax berikut:
 
@@ -95,7 +96,7 @@ Hasil output
 
 ![Gambar](gambar/11.png)
 
-# Penggunaan separator
+## Penggunaan separator
 Separator adalah komponen yang menentukan pemisah yang akan digunakan saat memisahkan string. Komponen ini bersifat optional.
 Masukan syntax berikut:
 
@@ -120,7 +121,7 @@ Masukan syntax berikut:
 Hasil output
 ![Gambar](gambar/12.png)
 
-# Penggunaan string format
+## Penggunaan string format
 Fungsi format() berfungsi untuk melakukan pengaturan format string yang akan dicetak atau ditampilkan ke monitor.
 Contoh syntax : format(value[, format_spec])
 
@@ -154,7 +155,7 @@ Contoh syntax : format(value[, format_spec])
 Hasil output
 ![Gambar](gambar/13.png)
 
-# Latihan 2
+## Latihan 2
 Membuat Program dengan menggunakan formating dan konversi nilai variable
 
 1. Buat new strach file "Latihan2"
@@ -181,7 +182,7 @@ Hasil output latihan2
 
 ![Gambar](gambar/30.png)
 
-# Latihan 3
+## Latihan 3
 Membuat program yang menghasilkan gambar seperti diamond dengan string formating
 
 1. Buat new stracth "Latihan3"
