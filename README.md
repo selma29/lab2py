@@ -219,7 +219,7 @@ Membuat program yang menghasilkan gambar seperti diamond dengan string formating
 
 Hasil output latihan3
 
-![Gambar](gambar/13.png)
+![Gambar](gambar/14.png)
 
 ## TUGAS
 ## MENGHITUNG LUAS DAN KELILING LINGKARAN
