@@ -76,7 +76,9 @@ Tunggu hingga selesai dan program siap digunakan.
 5. Selanjutnya membuat file Phyton baru dan beri nama file "latihan1"
 
 ## Penggunaan end
-Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di layar. Jadi secara bawaan, setiap kali kita memanggil fungsi print() untuk mencetak sesuatu, python akan mencetak karakter ganti baris () di setiap output.
+Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di layar.
+Jadi secara bawaan, setiap kali kita memanggil fungsi print() untuk mencetak sesuatu,
+python akan mencetak karakter ganti baris () di setiap output.
 Masukan syntax berikut:
 
         #menampilkan karakter dengan mengosongkan karakter terakhir(yang seharusnya ganti garis)
@@ -97,25 +99,25 @@ Hasil output
 ![Gambar](gambar/11.png)
 
 ## Penggunaan separator
-Separator adalah komponen yang menentukan pemisah yang akan digunakan saat memisahkan string. Komponen ini bersifat optional.
-Masukan syntax berikut:
+Separator adalah komponen yang menentukan pemisah yang akan digunakan saat memisahkan string.
+Komponen ini bersifat optional. Masukan syntax berikut:
 
-        #input variabel
+        # input variabel
         w, x, y, z = 10, 15, 20, 25 
 
-        #menampilkan varible
+        # menampilkan varible
         print(w, x, y, z)
 
-        #menampilkan varible dengan "," sebagai pemisah antar variable 
+        # menampilkan varible dengan "," sebagai pemisah antar variable 
         print(w, x, y, z, sep=',')
 
-        #menampilkan varible dengan tidak menggunakan pemisah antar variable 
+        # menampilkan varible dengan tidak menggunakan pemisah antar variable 
         print(w, x, y, z, sep='')
 
-        #menampilkan varible dengan ":" sebagai pemisah antar variable 
+        # menampilkan varible dengan ":" sebagai pemisah antar variable 
         print(w, x, y, z, sep=':')
 
-        #menampilkan varible dengan "-" sebagai pemisah antar variable 
+        # menampilkan varible dengan "-" sebagai pemisah antar variable 
         print(w, x, y, z, sep='-----')
 
 Hasil output
@@ -125,7 +127,7 @@ Hasil output
 Fungsi format() berfungsi untuk melakukan pengaturan format string yang akan dicetak atau ditampilkan ke monitor.
 Contoh syntax : format(value[, format_spec])
 
-        #menampilkan karakter 0 dan karakter 10 yang di pangkatkan
+        # menampilkan karakter 0 dan karakter 10 yang di pangkatkan
         print(0, 10 ** 0)
         print(1, 10 ** 1)
         print(2, 10 ** 2)
@@ -138,7 +140,7 @@ Contoh syntax : format(value[, format_spec])
         print(9, 10 ** 9)
         print(10, 10 ** 10)
 
-        #menampilkan karakter 0 dengan rata kanan diposisi 3 dan karakter 10 yang rata kanan diposisi 16 dari posisi 3
+        # menampilkan karakter 0 dengan rata kanan diposisi 3 dan karakter 10 yang rata kanan diposisi 16 dari posisi 3
         lalu karakter dipangkatkan(0 dan 1 menunjukan letak index, dini 0 = 0 dan 1 = 10)
         print('{0:>3} {1:>16}'.format(0, 10 ** 0))
         print('{0:>3} {1:>16}'.format(1, 10 ** 1))
@@ -161,18 +163,18 @@ Membuat Program dengan menggunakan formating dan konversi nilai variable
 1. Buat new strach file "Latihan2"
 2. Masukan syntax berikut :
 
-        #input nilai variable
+        # input nilai variable
         a=input("masukkan nilai a:")
         b=input("masukkan nilai b:")
 
-        #cetak nilai variable
+        # cetak nilai variable
         print("variabel a=",a)
         print("variabel b=",b)
 
-        #cetak hasil operasi kedua variable dengan String Format
+        # cetak hasil operasi kedua variable dengan String Format
         print("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
 
-        #konversi nilai variabel
+        # konversi nilai variabel
         a=int(a)
         b=int(b)
         print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
@@ -188,17 +190,18 @@ Membuat program yang menghasilkan gambar seperti diamond dengan string formating
 1. Buat new stracth "Latihan3"
 2. Masukan syntax berikut :
 
-        #menampilkan kalimat
+        # menampilkan kalimat
         print("Hello ini script python")
 
-        #menampilkan ganti baris
+        # menampilkan ganti baris
         print()
 
-        #menampilkan karakter * dengan rata kanan diposisi 12
+        # menampilkan karakter * dengan rata kanan diposisi 12
         print('{0:>12}'.format('*'))
 
-        #menampilkan karakter * dengan rata kanan diposisi 12 lalu dipangkatkan 2 dan
+        # menampilkan karakter * dengan rata kanan diposisi 12 lalu dipangkatkan 2 dan
         menampikan karakter terakhir * yang dipangkatkan lalu menampilkan garis ganti
+
         print('{0:>12}'.format('*'*2), end='*'*1)
         print()
         print('{0:>12}'.format('*'*3), end='*'*2)
@@ -214,7 +217,7 @@ Membuat program yang menghasilkan gambar seperti diamond dengan string formating
         print('{0:>12}'.format('*'*2), end='*'*1)
         print()
 
-        #menampilkan karakter * dengan rata kanan diposisi 12
+        # menampilkan karakter * dengan rata kanan diposisi 12
         print('{0:>12}'.format('*'))
 
 Hasil output latihan3
@@ -257,19 +260,24 @@ SELESAI!!
 ## Latihan1.py
 Tampilkan N bilangan acak kurang dari 0,5.
 
-        #Import Random.
+#Import Random.
+
         import random;
 
-        #Masukan nilai N.
+#Masukan nilai N.
+
         N = int(input('Masukkan nilai N: '));
 
-        #Looping nilai N menggunakan For.
+#Looping nilai N menggunakan For.
+
         for i in range(N)
 
-        #Random dengan random.uniform dengan range 0.0 - 0.5.
+#Random dengan random.uniform dengan range 0.0 - 0.5.
+
         random2 = random.uniform(0.0, 0.5);
 
-        #Print hasil random.
+#Print hasil random.
+
         print(random2);
 
 ## Hasil output latihan1.py
@@ -285,29 +293,36 @@ Tampilkan N bilangan acak kurang dari 0,5.
 ## Latihan2.py
 Menampilkan bilangan terbesar dari N buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
 
-        #Buat variabel Array.
+#Buat variabel Array.
+
         number = [];
 
-        #Looping menggunakan While dengan kondisi True.
+#Looping menggunakan While dengan kondisi True.
+
         while True
 
-        #Input nomor untuk dimasukan ke dalam Array.
+#Input nomor untuk dimasukan ke dalam Array.
+
         numberInput = int(input('Masukkan Bilangan: '));
         number.append(numberInput);
 
-        #Menggunakan logif If saat input == 0.
+#Menggunakan logif If saat input == 0.
+
         if numberInput == 0:
 
-        #Membuat Perulangan dengan For untuk menentukan angka terbesar dalam Array.
+#Membuat Perulangan dengan For untuk menentukan angka terbesar dalam Array.
+
         max2 = number[0];
         for b in range(0, len(number)):        
             if(number[b] > max2):    
                 max2 = number[b];    
 
-        #Menampilkan Angka Terbesar.
+#Menampilkan Angka Terbesar.
+
         print('Bilangan Terbesar adalah', max2);
 
-        #Menghentikan While dengan Breaks saat input == 0.
+#Menghentikan While dengan Breaks saat input == 0.
+
         if numberInput == 0:
             max2 = number[0];
             for b in range(0, len(number)):        
@@ -327,14 +342,17 @@ Menampilkan bilangan terbesar dari N buah data yang diinputkan. Masukkan angka 0
 ## Program1.py
 Program sederhana dengan perulangan. Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
 
-        #Buat variabel modal dan laba.
+#Buat variabel modal dan laba.
+
         modal = 100000000;
         laba = 0;
 
-        #Looping menggunakan For Range dengan kondisi 9x loops.
+#Looping menggunakan For Range dengan kondisi 9x loops.
+
         for i in range (9):
 
-        #Menggunakan Pengkondisian ketika perulangan.
+#Menggunakan Pengkondisian ketika perulangan.
+
         if i == 1 or i == 2:
         ...
         elif i > 2 and i < 5:
@@ -344,16 +362,16 @@ Program sederhana dengan perulangan. Seorang pengusaha menginvestasikan uangnya 
         elif i == 8:
         ...
 
-        #Mencetak besaran laba tiap loop.
+#Mencetak besaran laba tiap loop.
 
         print("laba bulan ke-",i, "sebesar: ", 0);
 
-        #Membuat perhitungan laba dan menyimpannya pada variabel laba.
+#Membuat perhitungan laba dan menyimpannya pada variabel laba.
 
         temp = modal * 1 / 100;
         laba += temp;  
 
-        #Menampilkan Total Hasil Laba.
+#Menampilkan Total Hasil Laba.
 
         print('Total Laba adalah', laba);
 
