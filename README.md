@@ -142,6 +142,7 @@ Contoh syntax : format(value[, format_spec])
 
         # menampilkan karakter 0 dengan rata kanan diposisi 3 dan karakter 10 yang rata kanan diposisi 16 dari posisi 3
         lalu karakter dipangkatkan(0 dan 1 menunjukan letak index, dini 0 = 0 dan 1 = 10)
+        
         print('{0:>3} {1:>16}'.format(0, 10 ** 0))
         print('{0:>3} {1:>16}'.format(1, 10 ** 1))
         print('{0:>3} {1:>16}'.format(2, 10 ** 2))
